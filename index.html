@@ -20,7 +20,7 @@
         <article>
             <section id="calculadora">
                 <section id="output">
-                    <p id="res">0+0=1</p>
+                    <p id="res"></p>
                 </section>
                 <section id="buttons">
                     <section id="controle">
@@ -28,10 +28,10 @@
                         <button>AC</button>
                     </section>
                     <section id="numbers">
-                        <button>1</button>
-                        <button>2</button>
-                        <button>3</button>
-                        <button>+</button>
+                        <button onclick="One()">1</button>
+                        <button onclick="Two()">2</button>
+                        <button onclick="Three()">3</button>
+                        <button onclick="Plus()">+</button>
                         <button>4</button>
                         <button>5</button>
                         <button>6</button>
@@ -43,7 +43,7 @@
                         <button>&radic;</button>
                         <button>0</button>
                         <button>÷</button>
-                        <button>=</button>
+                        <button onclick="Calc()">=</button>
                     </section>
                 </section>
             </section>
@@ -53,5 +53,5 @@
         <p>Baseado no projeto de <a href="">@dadead32434</a> a <a href="https://dadead32434.github.io/calc/html2.html">Calculadora do Willian</a>.</p>
     </footer>
 </body>
-<!--Linkar css e javascript-->
+<script src="js/script.js"></script>
 </html>
