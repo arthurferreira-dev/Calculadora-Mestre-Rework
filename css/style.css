@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/*
+    CSS Archive by: @arthurferreira-dev
+    License: MIT License
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /* Inter by: Google Fonts */
+
+:root {
+    --inter: 'Inter', Arial, Helvetica, Verdana, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--inter);
+    font-size: 1em;
+    background-color: #d4d4d4;
+    height: 100%;
+    width: 100%;
+}
+
+/* Cabeçalho / Header */
+header {
+    background-color: #fff;
+    padding: 6px;
+    text-align: center;
+}
+
+h1#title {
+    font-size: 1.85em;
+}
+
+h2#sub-title {
+    font-size: 1.23em;
+}
+
+span#title-rework {
+    color: darkslategrey;
+}
+
+hr#line {
+    color: #525252;
+    margin-bottom: 12px;
+}
+
+/* Principal e Artigo / Main and Article */
+section#calculadora {
+    margin: auto;
+    background-color: #525252;
+    border-top-left-radius: 6.5px;
+    border-top-right-radius: 6.5px;
+    width: 45%;
+    padding: 6.5px;
+}
+
+section#output {
+    background-color: #000;
+    color: #d8d872;
+    border-top-left-radius: 6.5px;
+    border-top-right-radius: 6.5px;
+    padding: 6.5px;
+    text-align: center;
+    width: 90%;
+    margin: auto auto 8px auto;
+}
+
+section#buttons > section#controle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+section#buttons > section#numbers {
+    display: flex;
+    flex-flow: row wrap;
+    width: 180px;
+    margin: auto auto auto auto;
+}
+
+section#numbers > button {
+    flex-basis: 37.5px;
+}
+
+section#buttons > section#calculos {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100px;
+    margin: auto auto auto auto;
+}
+
+section#calculos > button {
+    width: 33.333333333333333333px;
+}
+
+/* Rodapé / Footer */
+footer {
+    background-color: #fff;
+    padding: 6px;
+    text-align: center;
+}
+
+/* Mais regras / More rules */
+a, abbr {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #af5413;
+    border: none;
+    padding: 8px;
+    margin: 3.5px;
+    color: #d8d872;
+    text-align: center;
+    border-radius: 6.5px;
+    font-size: 0.96em;
+    transition-duration: .40s;
+}
+
+button:hover {
+    background-color: #c45f17;
+    color: #bbbb62;
+    cursor: pointer;
+}
